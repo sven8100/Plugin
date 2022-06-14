@@ -200,6 +200,8 @@ public class AutoLogHop extends Plugin {
 
         if (!passedWildernessChecks())
             return false;
+                if (equipment == null)
+                    return false;
 
         return true;
     }
